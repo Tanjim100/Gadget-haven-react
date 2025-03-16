@@ -1,0 +1,284 @@
+ [
+        {
+            "product_id": 1,
+            "product_title": "MacBook Pro 16",
+            "product_image": "macbook_pro_16.jpg",
+            "category": "laptop",
+            "price": 2499.99,
+            "description": "Powerful laptop with M2 Max chip",
+            "Specification": [
+                "M2 Max Chip",
+                "32GB RAM",
+                "1TB SSD"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": 2,
+            "product_title": "Dell XPS 15",
+            "product_image": "dell_xps_15.jpg",
+            "category": "laptop",
+            "price": 1999.99,
+            "description": "Sleek and powerful",
+            "Specification": [
+                "Intel Core i9",
+                "32GB RAM",
+                "1TB SSD"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": 3,
+            "product_title": "iPhone 15 Pro",
+            "product_image": "iphone_15_pro.jpg",
+            "category": "phone",
+            "price": 1099.99,
+            "description": "Latest iPhone model",
+            "Specification": [
+                "A17 Pro chip",
+                "6.1-inch OLED"
+            ],
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "product_id": 4,
+            "product_title": "Samsung Galaxy S24 Ultra",
+            "product_image": "galaxy_s24_ultra.jpg",
+            "category": "phone",
+            "price": 1199.99,
+            "description": "Flagship Android phone",
+            "Specification": [
+                "Snapdragon 8 Gen 3",
+                "256GB storage"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": 5,
+            "product_title": "Apple Watch Series 9",
+            "product_image": "apple_watch_9.jpg",
+            "category": "smart watch",
+            "price": 399.99,
+            "description": "Advanced smartwatch",
+            "Specification": [
+                "S9 chip",
+                "Always-on display"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": 6,
+            "product_title": "Samsung Galaxy Watch 6",
+            "product_image": "galaxy_watch_6.jpg",
+            "category": "smart watch",
+            "price": 349.99,
+            "description": "Samsung's latest smartwatch",
+            "Specification": [
+                "Exynos W930",
+                "1.4-inch AMOLED"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id": 7,
+            "product_title": "Logitech MX Master 3S",
+            "product_image": "logitech_mx_master_3s.jpg",
+            "category": "accessories",
+            "price": 99.99,
+            "description": "Premium mouse",
+            "Specification": [
+                "Ergonomic",
+                "MagSpeed scrolling"
+            ],
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "product_id": 8,
+            "product_title": "Apple AirPods Pro 2",
+            "product_image": "airpods_pro_2.jpg",
+            "category": "accessories",
+            "price": 249.99,
+            "description": "Noise-canceling earbuds",
+            "Specification": [
+                "H2 chip",
+                "ANC"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": 9,
+            "product_title": "Google Pixel 8",
+            "product_image": "pixel_8.jpg",
+            "category": "phone",
+            "price": 899.99,
+            "description": "Google's AI-powered phone",
+            "Specification": [
+                "Tensor G3",
+                "50MP camera"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": 10,
+            "product_title": "Sony WH-1000XM5",
+            "product_image": "sony_xm5.jpg",
+            "category": "accessories",
+            "price": 399.99,
+            "description": "Top noise-canceling headphones",
+            "Specification": [
+                "30-hour battery",
+                "LDAC support"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": 11,
+            "product_title": "Asus ROG Strix G16",
+            "product_image": "rog_strix_g16.jpg",
+            "category": "laptop",
+            "price": 1799.99,
+            "description": "Gaming laptop",
+            "Specification": [
+                "Intel Core i7",
+                "RTX 4070"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": 12,
+            "product_title": "Bose QuietComfort Ultra",
+            "product_image": "bose_qc_ultra.jpg",
+            "category": "accessories",
+            "price": 379.99,
+            "description": "Premium noise-canceling headphones",
+            "Specification": [
+                "Customizable EQ",
+                "24-hour battery"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id": 13,
+            "product_title": "HP Spectre x360",
+            "product_image": "hp_spectre_x360.jpg",
+            "category": "laptop",
+            "price": 1599.99,
+            "description": "Convertible laptop",
+            "Specification": [
+                "Intel Core i7",
+                "16GB RAM"
+            ],
+            "availability": true,
+            "rating": 4.5
+        },
+        {
+            "product_id": 14,
+            "product_title": "OnePlus 12",
+            "product_image": "oneplus_12.jpg",
+            "category": "phone",
+            "price": 799.99,
+            "description": "Flagship killer",
+            "Specification": [
+                "Snapdragon 8 Gen 3",
+                "50MP camera"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id": 15,
+            "product_title": "Garmin Fenix 7",
+            "product_image": "garmin_fenix_7.jpg",
+            "category": "smart watch",
+            "price": 699.99,
+            "description": "Rugged multisport GPS watch",
+            "Specification": [
+                "GPS",
+                "Advanced metrics"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": 16,
+            "product_title": "Corsair K100 RGB",
+            "product_image": "corsair_k100.jpg",
+            "category": "accessories",
+            "price": 229.99,
+            "description": "Mechanical gaming keyboard",
+            "Specification": [
+                "OPX switches",
+                "RGB lighting"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": 17,
+            "product_title": "Microsoft Surface Laptop 5",
+            "product_image": "surface_laptop_5.jpg",
+            "category": "laptop",
+            "price": 1399.99,
+            "description": "Lightweight laptop",
+            "Specification": [
+                "Intel Core i7",
+                "13.5-inch touchscreen"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id": 18,
+            "product_title": "Samsung Galaxy Buds 2 Pro",
+            "product_image": "galaxy_buds_2_pro.jpg",
+            "category": "accessories",
+            "price": 199.99,
+            "description": "True wireless earbuds",
+            "Specification": [
+                "ANC",
+                "Hi-Fi audio"
+            ],
+            "availability": true,
+            "rating": 4.5
+        },
+        {
+            "product_id": 19,
+            "product_title": "Xiaomi Mi 13 Ultra",
+            "product_image": "xiaomi_mi_13_ultra.jpg",
+            "category": "phone",
+            "price": 999.99,
+            "description": "Photography-focused smartphone",
+            "Specification": [
+                "Leica cameras",
+                "AMOLED display"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id": 20,
+            "product_title": "Fitbit Sense 2",
+            "product_image": "fitbit_sense_2.jpg",
+            "category": "smart watch",
+            "price": 299.99,
+            "description": "Health-focused smartwatch",
+            "Specification": [
+                "ECG",
+                "SpO2 monitoring"
+            ],
+            "availability": true,
+            "rating": 4.5
+        }
+    ]
