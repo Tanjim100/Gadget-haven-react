@@ -13,6 +13,7 @@ import NotFound from './components/NotFound/NotFound.jsx';
 import DashBoard from './components/DashBoard/DashBoard.jsx';
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
+import HeaderWithBanner from './components/HeaderWithBanner/HeaderWithBanner.jsx';
 
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path:"/dashboard",
         element: <DashBoard></DashBoard>
+      },
+      {
+        path:"/headerwithbanner",
+        element: <HeaderWithBanner></HeaderWithBanner>
       },
     ]
     

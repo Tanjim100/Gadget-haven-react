@@ -55,7 +55,7 @@ const ProductDetails = () => {
                             <p>{rating}</p>
                         </div>
 
-                        <div cal>
+                        <div>
                             <button className='bg-purple-500 p-3 rounded-2xl text-white font-bold'>Add To Cart <ShoppingCartOutlined/></button>
                             <button className='p-2 border-2 hover:border-black  rounded-full ml-5'><FavoriteBorderOutlined/></button>
                         </div>

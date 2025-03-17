@@ -73,8 +73,8 @@ const Statistics = () => {
         <div>
             <div className="text-center bg-purple-600 p-10">
                 <div className=" max-w-6xl mx-auto flex flex-col items-center text-white space-y-6">
-                    <h1 className="text-5xl">Dashboard</h1>
-                    <p className='border w-[700px]'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
+                    <h1 className="text-5xl">Statistics</h1>
+                    <p className=' w-[700px]'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
 
                 </div>
             </div>
