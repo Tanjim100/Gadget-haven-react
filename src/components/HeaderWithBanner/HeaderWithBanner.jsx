@@ -46,7 +46,7 @@ const HeaderWithBanner = () => {
                                     {links}
                                 </ul>
                             </div>
-                            <a className="btn btn-ghost text-xl">{title}</a>
+                            <Link to="/" className="font-bold text-xl">{title}</Link>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal px-1">

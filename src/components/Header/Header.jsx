@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 
@@ -39,7 +39,7 @@ const Header = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">{title}</a>
+                    <Link to="/" className="text-xl font-bold">{title}</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
