@@ -3,9 +3,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 
 import { Rating } from '@mui/material';
 import StarIcon from '@mui/icons-material/Star';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { FavoriteBorderOutlined, ShoppingCartOutlined } from '@mui/icons-material';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 const ProductDetails = () => {
 

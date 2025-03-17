@@ -3,11 +3,16 @@ import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 
 const Header = () => {
+
+    const activeLink = ({isActive}) => isActive ? "font-bold" : ""
+
+
+
     const title = 'Gadget Haven';
     const links = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/statistics">Statistics</NavLink></li>
-        <li><NavLink to="/dashboard">DashBoard</NavLink></li>
+        <li><NavLink to="/" className={activeLink}>Home</NavLink></li>
+        <li><NavLink to="/statistics" className={activeLink}>Statistics</NavLink></li>
+        <li><NavLink to="/dashboard" className={activeLink}>DashBoard</NavLink></li>
     </>
     return (
         <div className="bg-white">

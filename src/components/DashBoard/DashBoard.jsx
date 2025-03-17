@@ -49,8 +49,8 @@ const DashBoard = () => {
         setProducts(item === "cart" ? cartItems : wishlistItems);
     }
 
-    const bgcart = view === "cart" ? "bg-white text-purple-500" : "";
-    const bgwhishlist = view === "wishlist" ? "bg-white text-purple-500" : "";
+    const bgcart = view === "cart" ? `bg-white text-purple-600` : `text-white`;
+    const bgwhishlist = view === "wishlist" ? `bg-white text-purple-600` : `text-white`;
 
     const handleSort = sortType => {
         setSort(sortType);
@@ -74,8 +74,8 @@ const DashBoard = () => {
                     <p>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
                     <div>
                         <div className="toggle-buttons space-x-4 text-black">
-                            <button className={`py-2 px-10 border-2 text-white font-semibold border-white rounded-full hover:bg-white hover:text-purple-600 ${bgcart}`} onClick={() => handleProduct("cart")}>Cart</button>
-                            <button className={`py-2 px-10 border-2 text-white font-semibold border-white rounded-full hover:bg-white hover:text-purple-600 ${bgwhishlist}`} onClick={() => handleProduct("wishlist")}>Wishlist</button>
+                            <button className={`py-2 px-10 border-2 font-semibold border-white rounded-full hover:bg-white hover:text-purple-600 ${bgcart}`} onClick={() => handleProduct("cart")}>Cart</button>
+                            <button className={`py-2 px-10 border-2 font-semibold border-white rounded-full hover:bg-white hover:text-purple-600 ${bgwhishlist}`} onClick={() => handleProduct("wishlist")}>Wishlist</button>
                         </div>
 
                         {/* Pass View State to ListedItem Component */}

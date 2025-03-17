@@ -14,6 +14,7 @@ import DashBoard from './components/DashBoard/DashBoard.jsx';
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
 import HeaderWithBanner from './components/HeaderWithBanner/HeaderWithBanner.jsx';
+import Product from './components/Product/Product.jsx';
 
 
 
